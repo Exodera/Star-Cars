@@ -1,0 +1,56 @@
+@font-face {
+    font-family: tesla;
+    src: url('./TESLA.ttf');
+}
+.header{
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: hotpink;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+h1{
+    font-size: 1.25rem;
+    font-family: tesla;
+}
+
+.nav-links a{
+    white-space: nowrap;
+    padding: 0 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    width: 50%;
+    justify-content: end;
+}
+@media screen and (max-width: 1200px) {
+    .first{
+        display: none;
+    }
+    .account{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    
+    
+}
+
+
+
