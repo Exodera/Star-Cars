@@ -27,7 +27,7 @@ h1{
 
 .nav-links a{
  
-   
+    border-radius: 0.25em;
     white-space: nowrap;
     padding: 0.35em 1em;
     font-weight: bold;
@@ -39,7 +39,7 @@ h1{
 .nav-links a:hover{
     background: rgba(0,0,0,0.1);
     backdrop-filter: blur(10px);
-    border-radius: 0.25em;
+   
 }
 
 
@@ -51,6 +51,7 @@ h1{
     width: 55%;
     justify-content: end;
 }
+
 @media screen and (max-width: 1200px) {
     .first{
         display: none;

@@ -8,8 +8,6 @@ const Home = () => {
   return (
     <div className='home'>
       <Background/>
-        
-        
     </div>
   )
 }
