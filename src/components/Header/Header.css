@@ -4,14 +4,16 @@
 }
 .header{
     position: relative;
+    z-index: 99;
 }
 
 .navbar{
+    color: rgb(38, 38, 38);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
-    background-color: hotpink;
+    padding: 1rem 1.5rem 0 3rem;
+    
     position: fixed;
     top: 0;
     right: 0;
@@ -20,22 +22,33 @@
 h1{
     font-size: 1.25rem;
     font-family: tesla;
+    letter-spacing: .5em;
 }
 
 .nav-links a{
+ 
+   
     white-space: nowrap;
-    padding: 0 1em;
+    padding: 0.35em 1em;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: rgb(38, 38, 38);
     font-size: 1rem;
+    transition: all 0.7s;
 }
+.nav-links a:hover{
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0.25em;
+}
+
+
 .nav-links{
     display: flex;
     justify-content: center;
 }
 .first{
-    width: 50%;
+    width: 55%;
     justify-content: end;
 }
 @media screen and (max-width: 1200px) {
@@ -48,9 +61,16 @@ h1{
     .shop{
         display: none;
     }
+    .menu{
+        background: rgba(0,0,0,0.07);
+        backdrop-filter: blur(10px);
+        border-radius: 0.25em;
+    }
     
     
 }
+
+
 
 
 
