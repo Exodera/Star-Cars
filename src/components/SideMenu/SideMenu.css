@@ -1,22 +1,48 @@
 *{
     text-align: right;
 }
-.menu-items-open{
+.side-nav{
     padding: 2em;
     height: 100vh;
     width: 30%;
     position: fixed;
     right: 0;
     background-color: #fff;
-    
+    opacity: 0; 
    
+    
 }
-.menu-items-close{
-    display: none;
+
+.menu-items-open{
+    animation: slide-in .5s forwards;
+}
+.menu-items-close{ 
+    animation: slide-out .5s forwards; 
+  
+}
+
+@keyframes slide-out{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@keyframes slide-in{
+    100%{
+        opacity: 1;
+        pointer-events: all;
+    }
 }
 
 .links a{
-    margin: 0.3em;
+    border-radius: 0.3em;
+    white-space: nowrap;
+    margin: 0.5em;
     padding: .5em;
     display: block;
     text-align: left;
@@ -39,7 +65,9 @@ button{
     border-radius: 0.25em;
 }
 
+
 button:hover{
     background: rgba(0,0,0,0.06);
     backdrop-filter: blur(10px);
 }
+

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import SideMenu from '../SideMenu/SideMenu';
 import './Header.css'
 
-const Header = () => {
+const Header = (props) => {
 const [menuItemsOpen, setMenuItemsOpen] = useState(false);
 
   return (
@@ -11,11 +11,11 @@ const [menuItemsOpen, setMenuItemsOpen] = useState(false);
         <div className='navbar'>
           <h1>LOGO</h1>
           <div className='nav-links first'>
-            <Link to = '/'>Model S</Link>
-            <Link to = '/'>Model 3</Link>
             <Link to = '/'>Model X</Link>
             <Link to = '/'>Model Y</Link>
-            <Link to = '/'>Solar Roof</Link>
+            <Link to = '/'>Model Z</Link>
+            <Link to = '/'>Model M</Link>
+            <Link to = '/'>Solar Doors</Link>
             <Link to = '/'>Solar Panels</Link>
           </div>
 
@@ -28,7 +28,7 @@ const [menuItemsOpen, setMenuItemsOpen] = useState(false);
             }}>Menu</Link>
           </div>
         </div>
-          <SideMenu menuItemsOpen={menuItemsOpen} setMenuItemsOpen={setMenuItemsOpen} />
+          <SideMenu data = {props.menuActive} menuItemsOpen={menuItemsOpen} setMenuItemsOpen={setMenuItemsOpen} />
 
     </div>
     

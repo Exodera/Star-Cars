@@ -12,8 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem 0 3rem;
-    
+    padding: 1rem .5rem 0 3rem;
     position: fixed;
     top: 0;
     right: 0;
@@ -26,13 +25,14 @@ h1{
 }
 
 .nav-links a{
- 
+    letter-spacing: .06em;
+  
     border-radius: 0.25em;
     white-space: nowrap;
     padding: 0.35em 1em;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
-    color: rgb(38, 38, 38);
+    color: rgb(79, 79, 79);
     font-size: 1rem;
     transition: all 0.7s;
 }
@@ -48,8 +48,9 @@ h1{
     justify-content: center;
 }
 .first{
+    
     width: 55%;
-    justify-content: end;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {

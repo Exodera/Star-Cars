@@ -5,12 +5,21 @@ import Header from './components/Header/Header';
 import Home from './pages/Home';
 
 function App() {
+  let menuState = false;
+
+
+  const menuActive = (data) =>{
+    menuState = data;
+    console.log(menuState)
+    
+  }
+  
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Header menuActive={menuActive}/>
         <Routes>
-          <Route path ='/' element={<Home/>}/>
+          <Route path ='/' element={<Home menuActive={menuState}/>}/>
         </Routes>
       </Router>
       

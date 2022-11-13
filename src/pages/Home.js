@@ -4,7 +4,8 @@ import './styles/Global.css'
 import Background from '../components/Background/Background'
 
 
-const Home = () => {
+const Home = (props) => {
+  
   return (
     <div className='home'>
       <Background/>

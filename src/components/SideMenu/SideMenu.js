@@ -5,10 +5,12 @@ import {GrClose} from 'react-icons/gr'
 
 
 const SideMenu = (props) => {
+ 
   return (
-    <div className={props.menuItemsOpen?'menu-items-open':'menu-items-close'}>
+    <div className={props.menuItemsOpen?'menu-items-open side-nav':'menu-items-close side-nav'}>
         <button onClick={()=>{
             props.setMenuItemsOpen((prev)=>!prev)
+            props.data(props.menuItemsOpen)
         }}><GrClose size={'1.2rem'}/></button>
         <div className='links'>
             <Link to = '/'>Existing Inventory</Link>
