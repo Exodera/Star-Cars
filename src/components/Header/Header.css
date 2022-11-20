@@ -23,6 +23,9 @@ h1{
     font-family: tesla;
     letter-spacing: .5em;
 }
+h1:hover{
+    cursor: pointer;
+}
 
 .nav-links a{
     letter-spacing: .06em;

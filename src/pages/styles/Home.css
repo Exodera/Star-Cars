@@ -1,0 +1,82 @@
+.home{
+  width: 100%;
+}
+.showcase{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.case{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: url('../../assets/car1.jpg');
+  background-repeat: none;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.action-btn{
+  text-align: center;
+  margin: 0 .55em;
+  padding: .75em 7em;
+  font-weight: 700;
+}
+
+
+.case-text{
+  margin-bottom: 10em; 
+  
+}
+.case-text h2{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: .3em;
+  color: rgb(79, 79, 79)
+}
+
+.case-text p{
+  transition: all 0.25s ;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.case-text p:hover{
+  cursor: pointer;
+  color: grey;
+
+}
+
+
+.buttons{
+  margin: 0 .4em;
+  white-space: nowrap;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.buttons .action-btn:first-of-type{
+  background-color: #171a20;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .action-btn{
+   
+    padding: .75em 4em;
+
+  }
+  }
+
+
+
+
+
+  
+    

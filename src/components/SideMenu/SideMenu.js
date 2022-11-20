@@ -14,10 +14,10 @@ const SideMenu = (props) => {
         }}><GrClose size={'1.2rem'}/></button>
         <div className='links'>
             <Link to = '/'>Existing Inventory</Link>
-            <Link to = '/'>Model S</Link>
-            <Link to = '/'>Model S</Link>
-            <Link to = '/'>Model S</Link>
-            <Link to = '/'>Model S</Link>
+            <Link to = '/'>Model X</Link>
+            <Link to = '/'>Model Y</Link>
+            <Link to = '/'>Model Z</Link>
+            <Link to = '/'>Model A</Link>
         </div>
         
     </div>

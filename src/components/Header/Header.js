@@ -9,7 +9,7 @@ const [menuItemsOpen, setMenuItemsOpen] = useState(false);
   return (
     <div className='header'>
         <div className='navbar'>
-          <h1>LOGO</h1>
+          <h1>STAR CARS</h1>
           <div className='nav-links first'>
             <Link to = '/'>Model X</Link>
             <Link to = '/'>Model Y</Link>
