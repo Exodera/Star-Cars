@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/star-cars/static/css/main.421a5c19.css",
+    "main.js": "/star-cars/static/js/main.abe1857f.js",
+    "static/js/787.3b70ba07.chunk.js": "/star-cars/static/js/787.3b70ba07.chunk.js",
+    "static/media/Hyundai.jpg": "/star-cars/static/media/Hyundai.783d1f7fa6d016d19b98.jpg",
+    "static/media/car1.jpg": "/star-cars/static/media/car1.372f67ca29f5537fdd31.jpg",
+    "static/media/LandRover.jpg": "/star-cars/static/media/LandRover.bd6719adb10cd9119acc.jpg",
+    "static/media/Classic.jpg": "/star-cars/static/media/Classic.995f189938c8c50bc94d.jpg",
+    "static/media/Mercedes.jpeg": "/star-cars/static/media/Mercedes.d7de13dffe45004c39a3.jpeg",
+    "static/media/TESLA.ttf": "/star-cars/static/media/TESLA.7e1592bd859398505313.ttf",
+    "index.html": "/star-cars/index.html",
+    "main.421a5c19.css.map": "/star-cars/static/css/main.421a5c19.css.map",
+    "main.abe1857f.js.map": "/star-cars/static/js/main.abe1857f.js.map",
+    "787.3b70ba07.chunk.js.map": "/star-cars/static/js/787.3b70ba07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.421a5c19.css",
+    "static/js/main.abe1857f.js"
+  ]
+}
